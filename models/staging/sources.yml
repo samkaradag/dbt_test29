@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: ecommerce
+    database: prd-dagen
+    schema: ecommerce
+    tables:
+      - name: users
+      - name: products
+      - name: orders
+      - name: order_items
